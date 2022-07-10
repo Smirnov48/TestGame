@@ -1,0 +1,29 @@
+{
+  "name": "TestGame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "webpack-dev-server --config webpack/dev.js --open",
+    "devbuild": "webpack --config webpack/dev.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Smirnov48"
+  ],
+  "author": "Smirnov48",
+  "license": "MIT License",
+  "devDependencies": {
+    "clean-webpack-plugin": "^4.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "file-loader": "^6.2.0",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.5.5",
+    "webpack": "^5.68.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.7.4"
+  },
+  "dependencies": {
+    "phaser": "^3.60.0-beta.9"
+  }
+}
